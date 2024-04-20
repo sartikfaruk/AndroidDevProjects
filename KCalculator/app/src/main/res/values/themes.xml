@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.KCalculator" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/charcoal</item>
+        <item name="colorOnPrimary">@color/silver</item>
+
+    </style>
+
+    <style name="Theme.KCalculator" parent="Base.Theme.KCalculator" />
+</resources>

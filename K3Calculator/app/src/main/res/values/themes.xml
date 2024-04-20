@@ -1,9 +1,10 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.K3Calculator" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    <style name="Base.Theme.KCalculator" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/charcoal</item>
+        <item name="colorOnPrimary">@color/silver</item>
+
     </style>
 
-    <style name="Theme.K3Calculator" parent="Base.Theme.K3Calculator" />
+    <style name="Theme.K2Calculator" parent="Base.Theme.K3Calculator" />
 </resources>
