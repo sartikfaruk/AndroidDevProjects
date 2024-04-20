@@ -4,11 +4,15 @@ plugins {
 }
 
 android {
-    namespace = "com.example.k3_calculator"
+    namespace = "com.example.k2_calculator"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
-        applicationId = "com.example.k3_calculator"
+        applicationId = "com.example.k2_calculator"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -37,6 +41,7 @@ android {
 
 dependencies {
 
+    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.22")
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.11.0")
