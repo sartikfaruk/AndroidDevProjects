@@ -6,5 +6,5 @@
 
     </style>
 
-    <style name="Theme.K2Calculator" parent="Base.Theme.K3Calculator" />
+    <style name="Theme.K3Calculator" parent="Base.Theme.K3Calculator" />
 </resources>

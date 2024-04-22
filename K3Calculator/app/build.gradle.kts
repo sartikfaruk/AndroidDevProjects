@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.k2_calculator"
+    namespace = "com.example.k3_calculator"
     compileSdk = 34
 
     buildFeatures {
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.k2_calculator"
+        applicationId = "com.example.k3_calculator"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
